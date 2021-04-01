@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Users\GD Student\AppData\Local\JetBrains\Rider2020.2\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\GD Student\AppData\Local\JetBrains\Rider2020.2\resharper-host\Local\Transient\Rider\v202\SolutionCaches\_BS.-1284211162.00" t="ExcludeRecursive" />
+    <e p="D:\Course\T4\BS\BS" t="IncludeRecursive">
+      <e p="Assembly-CSharp-Editor.csproj" t="IncludeRecursive" />
+      <e p="Assembly-CSharp-firstpass.csproj" t="IncludeRecursive" />
+      <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
+      <e p="Assets" t="Include">
+        <e p="Asset Package" t="Include">
+          <e p="BOXOPHOBIC" t="Include">
+            <e p="Polyverse Skies" t="Include">
+              <e p="Core" t="Include">
+                <e p="Editor" t="Include">
+                  <e p="Boxophobic.PolyverseSkies.Editor.asmdef" t="Include" />
+                  <e p="PolyverseSkiesCreate.cs" t="Include" />
+                  <e p="PolyverseSkiesHub.cs" t="Include" />
+                  <e p="PolyverseSkiesShaderGUI.cs" t="Include" />
+                  <e p="PolyverseSkiesWindows.cs" t="Include" />
+                </e>
+                <e p="Runtime" t="Include">
+                  <e p="Boxophobic.PolyverseSkies.Runtime.asmdef" t="Include" />
+                  <e p="PolyverseSkies.cs" t="Include" />
+                </e>
+                <e p="Shaders" t="Include">
+                  <e p="Simple.shader" t="Include" />
+                  <e p="Standard.shader" t="Include" />
+                </e>
+              </e>
+              <e p="Generator" t="Include">
+                <e p="scripts" t="Include">
+                  <e p="Boxophobic.PolyverseSkies.Scripts.asmdef" t="Include" />
+                  <e p="PolyverseSkiesGenerator.cs" t="Include" />
+                </e>
+                <e p="Shaders" t="Include">
+                  <e p="Rendering Clouds.shader" t="Include" />
+                </e>
+              </e>
+            </e>
+            <e p="Utils" t="Include">
+              <e p="Editor" t="Include">
+                <e p="Boxophobic.Utils.Editor.asmdef" t="Include" />
+                <e p="Constants" t="Include">
+                  <e p="Constants.cs" t="Include" />
+                </e>
+                <e p="SettingsUtils" t="Include">
+                  <e p="LoadSettingsData.cs" t="Include" />
+                  <e p="SaveSettingsData.cs" t="Include" />
+                </e>
+                <e p="StyledGUI" t="Include">
+                  <e p="DrawInspectorBanner.cs" t="Include" />
+                  <e p="DrawInspectorCategory.cs" t="Include" />
+                  <e p="DrawWindowBanner.cs" t="Include" />
+                  <e p="DrawWindowCategory.cs" t="Include" />
+                </e>
+                <e p="StyledInspector" t="Include">
+                  <e p="StyledBannerDrawer.cs" t="Include" />
+                  <e p="StyledButtonDrawer.cs" t="Include" />
+                  <e p="StyledCategoryDrawer.cs" t="Include" />
+                  <e p="StyledIndentDrawer.cs" t="Include" />
+                  <e p="StyledInteractiveDrawer.cs" t="Include" />
+                  <e p="StyledMessageDrawer.cs" t="Include" />
+                  <e p="StyledPopupArrayDrawer.cs" t="Include" />
+                  <e p="StyledPopupLayersDrawer.cs" t="Include" />
+                  <e p="StyledRangeOptionsDrawer.cs" t="Include" />
+                  <e p="StyledSpaceDrawer.cs" t="Include" />
+                  <e p="StyledTextDrawer.cs" t="Include" />
+                  <e p="StyledTexturePreviewDrawer.cs" t="Include" />
+                </e>
+                <e p="StyledMaterial" t="Include">
+                  <e p="StyledBannerDrawer.cs" t="Include" />
+                  <e p="StyledButtonDrawer.cs" t="Include" />
+                  <e p="StyledCategoryDrawer.cs" t="Include" />
+                  <e p="StyledDiffusionMaterialDrawer.cs" t="Include" />
+                  <e p="StyledIndentDrawer.cs" t="Include" />
+                  <e p="StyledInteractiveDrawer.cs" t="Include" />
+                  <e p="StyledMessageDrawer.cs" t="Include" />
+                  <e p="StyledOptionsSliderDrawer.cs" t="Include" />
+                  <e p="StyledRemapSliderDrawer.cs" t="Include" />
+                  <e p="StyledSpaceDrawer.cs" t="Include" />
+                  <e p="StyledTextDrawer.cs" t="Include" />
+                  <e p="StyledTextureDrawer.cs" t="Include" />
+                  <e p="StyledToggleDrawer.cs" t="Include" />
+                </e>
+                <e p="StyledMono" t="Include">
+                  <e p="StyledMonoBehaviourEditor.cs" t="Include" />
+                  <e p="StyledScriptableObjectEditor.cs" t="Include" />
+                </e>
+              </e>
+              <e p="scripts" t="Include">
+                <e p="Boxophobic.Utils.Scripts.asmdef" t="Include" />
+                <e p="SettingsUtils" t="Include">
+                  <e p="SettingsData.cs" t="Include" />
+                </e>
+                <e p="StyledInspector" t="Include">
+                  <e p="StyledBanner.cs" t="Include" />
+                  <e p="StyledButton.cs" t="Include" />
+                  <e p="StyledCategory.cs" t="Include" />
+                  <e p="StyledIndent.cs" t="Include" />
+                  <e p="StyledInteractive.cs" t="Include" />
+                  <e p="StyledMessage.cs" t="Include" />
+                  <e p="StyledPopupArray.cs" t="Include" />
+                  <e p="StyledPopupLayers.cs" t="Include" />
+                  <e p="StyledRangeOptions.cs" t="Include" />
+                  <e p="StyledSpace.cs" t="Include" />
+                  <e p="StyledText.cs" t="Include" />
+                  <e p="StyledTexturePreview.cs" t="Include" />
+                </e>
+                <e p="StyledMono" t="Include">
+                  <e p="StyledMonoBehaviour.cs" t="Include" />
+                  <e p="StyledScriptableObject.cs" t="Include" />
+                </e>
+              </e>
+            </e>
+          </e>
+          <e p="Loading Screen" t="Include">
+            <e p="Content" t="Include">
+              <e p="scripts" t="Include">
+                <e p="Internal" t="Include">
+                  <e p="Editor" t="Include">
+                    <e p="bl_LoadingScreenStartUp.cs" t="Include" />
+                    <e p="bl_LoadingScreenWelcome.cs" t="Include" />
+                    <e p="bl_SceneLoaderEditor.cs" t="Include" />
+                    <e p="LoadingScreenDocumentation.cs" t="Include" />
+                  </e>
+                  <e p="Enum" t="Include">
+                    <e p="bl_SceneLoaderSkip.cs" t="Include" />
+                    <e p="LoadingType.cs" t="Include" />
+                  </e>
+                  <e p="Global" t="Include">
+                    <e p="bl_SceneLoaderUtils.cs" t="Include" />
+                  </e>
+                  <e p="ReorderableList" t="Include">
+                    <e p="Attributes" t="Include">
+                      <e p="ReorderableLovattoAttribute.cs" t="Include" />
+                    </e>
+                    <e p="Editor" t="Include">
+                      <e p="ReorderableDrawer.cs" t="Include" />
+                      <e p="ReorderableList.cs" t="Include" />
+                    </e>
+                    <e p="ReorderableArray.cs" t="Include" />
+                  </e>
+                  <e p="Structures" t="Include">
+                    <e p="bl_SceneLoaderInfo.cs" t="Include" />
+                  </e>
+                </e>
+                <e p="Runtime" t="Include">
+                  <e p="Main" t="Include">
+                    <e p="bl_SceneLoader.cs" t="Include" />
+                    <e p="bl_SceneLoaderManager.cs" t="Include" />
+                  </e>
+                  <e p="Misc" t="Include">
+                    <e p="bl_ImageClamp.cs" t="Include" />
+                    <e p="bl_RawImageOffset.cs" t="Include" />
+                    <e p="bl_TransformRotator.cs" t="Include" />
+                    <e p="bl_UIGradient.cs" t="Include" />
+                    <e p="LoadingScreen.Misc.asmdef" t="Include" />
+                  </e>
+                  <e p="UI" t="Include">
+                    <e p="bl_LoadingScreenUI.cs" t="Include" />
+                  </e>
+                  <e p="Utils" t="Include">
+                    <e p="bl_ButtonSceneLoad.cs" t="Include" />
+                    <e p="bl_TriggerLoad.cs" t="Include" />
+                  </e>
+                </e>
+              </e>
+            </e>
+            <e p="Example" t="Include">
+              <e p="Script" t="Include">
+                <e p="bl_LoadingScreenExample.cs" t="Include" />
+              </e>
+            </e>
+            <e p="ReadMe.txt" t="Include" />
+          </e>
+          <e p="Low Poly Vegetation Pack" t="Include">
+            <e p="Bonus Assets" t="Include">
+              <e p="scripts" t="Include">
+                <e p="LowPolyVegetation_CameraControl.cs" t="Include" />
+                <e p="LowPolyVegetation_CloudsControl.cs" t="Include" />
+                <e p="LowPolyVegetation_SunControl.cs" t="Include" />
+              </e>
+            </e>
+          </e>
+          <e p="rpg animations" t="Include">
+            <e p="scripts" t="Include">
+              <e p="CameraController.cs" t="Include" />
+              <e p="HiderInTime.cs" t="Include" />
+              <e p="HidingMachineBehaviour.cs" t="Include" />
+              <e p="ScrollSwitcher.cs" t="Include" />
+              <e p="UI_no_weapon.cs" t="Include" />
+              <e p="UI_sword.cs" t="Include" />
+              <e p="WeaponHide.cs" t="Include" />
+              <e p="WorldInteraction.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Plugins" t="Include">
+          <e p="Demigiant" t="Include">
+            <e p="DOTween" t="Include">
+              <e p="Modules" t="Include">
+                <e p="DOTweenModuleAudio.cs" t="Include" />
+                <e p="DOTweenModulePhysics.cs" t="Include" />
+                <e p="DOTweenModulePhysics2D.cs" t="Include" />
+                <e p="DOTweenModuleSprite.cs" t="Include" />
+                <e p="DOTweenModuleUI.cs" t="Include" />
+                <e p="DOTweenModuleUnityVersion.cs" t="Include" />
+                <e p="DOTweenModuleUtils.cs" t="Include" />
+              </e>
+              <e p="ReadMe.txt" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Script" t="Include">
+          <e p="Animation Behaviour" t="Include">
+            <e p="StopAgent.cs" t="Include" />
+          </e>
+          <e p="Character" t="Include">
+            <e p="Enemy" t="Include">
+              <e p="Golem.cs" t="Include" />
+              <e p="Grunt.cs" t="Include" />
+            </e>
+            <e p="EnemyController.cs" t="Include" />
+            <e p="PlayerController.cs" t="Include" />
+            <e p="Weapon" t="Include">
+              <e p="Rock.cs" t="Include" />
+            </e>
+          </e>
+          <e p="CharaStats" t="Include">
+            <e p="MonoBehavior" t="Include">
+              <e p="CharacterStats.cs" t="Include" />
+            </e>
+            <e p="ScriptableObject" t="Include">
+              <e p="CharacterData_SO.cs" t="Include" />
+            </e>
+          </e>
+          <e p="Combat" t="Include">
+            <e p="AttackData_SO.cs" t="Include" />
+          </e>
+          <e p="Manager" t="Include">
+            <e p="GameManager.cs" t="Include" />
+            <e p="MouseManager.cs" t="Include" />
+          </e>
+          <e p="Tools" t="Include">
+            <e p="Extension Method.cs" t="Include" />
+            <e p="IEndGameObserver.cs" t="Include" />
+            <e p="Singleton.cs" t="Include" />
+          </e>
+          <e p="UI" t="Include">
+            <e p="HealthBarUI.cs" t="Include" />
+            <e p="PlayerHealthUI.cs" t="Include" />
+          </e>
+        </e>
+      </e>
+      <e p="Boxophobic.PolyverseSkies.Editor.csproj" t="IncludeRecursive" />
+      <e p="Boxophobic.PolyverseSkies.Runtime.csproj" t="IncludeRecursive" />
+      <e p="Boxophobic.PolyverseSkies.Scripts.csproj" t="IncludeRecursive" />
+      <e p="Boxophobic.Utils.Editor.csproj" t="IncludeRecursive" />
+      <e p="Boxophobic.Utils.Scripts.csproj" t="IncludeRecursive" />
+      <e p="BS.sln" t="IncludeFlat" />
+      <e p="LoadingScreen.Misc.csproj" t="IncludeRecursive" />
+      <e p="obj" t="ExcludeRecursive" />
+      <e p="Packages" t="ExcludeRecursive" />
+      <e p="Temp\Bin" t="ExcludeRecursive" />
+    </e>
+  </component>
+</project>
