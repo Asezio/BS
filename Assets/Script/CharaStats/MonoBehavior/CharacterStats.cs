@@ -49,9 +49,10 @@ public class CharacterStats : MonoBehaviour
     {
         int damage = Mathf.Max(attacker.CurrentDamage() - defender.CurrentDefence,0);
         CurrentHealth = Mathf.Max(CurrentHealth - damage, 0);
-        defender.GetComponent<Animator>().SetTrigger("hit");
+        //defender.GetComponent<Animator>().SetTrigger("hit");
         if(attacker.isCritical)
         {
+            defender.GetComponent<Animator>().SetTrigger("back");
             defender.GetComponent<Animator>().SetTrigger("hit");
         }
         //update UI
@@ -85,4 +86,5 @@ public class CharacterStats : MonoBehaviour
     }
 
     #endregion
+
 }

@@ -13,9 +13,9 @@ MonoBehaviour:
   m_Name: Grunt Attack
   m_EditorClassIdentifier: 
   attackRange: 2.3
-  skillRange: 1.6
+  skillRange: 2
   coolDown: 2
-  minDamage: 3
+  minDamage: 4
   MaxDamage: 6
   criticleMultiplier: 2
   criticalChance: 0.2

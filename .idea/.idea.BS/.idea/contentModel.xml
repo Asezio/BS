@@ -247,6 +247,11 @@
             <e p="IEndGameObserver.cs" t="Include" />
             <e p="Singleton.cs" t="Include" />
           </e>
+          <e p="Transition" t="Include">
+            <e p="SceneController.cs" t="Include" />
+            <e p="TransitionDestination.cs" t="Include" />
+            <e p="TransitionPoint.cs" t="Include" />
+          </e>
           <e p="UI" t="Include">
             <e p="HealthBarUI.cs" t="Include" />
             <e p="PlayerHealthUI.cs" t="Include" />

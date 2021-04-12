@@ -27,18 +27,22 @@ public class HealthBarUI : MonoBehaviour
 
     private void UpdateHealthBar(int currentHealth, int maxHealth)
     {
+        if (UIbar == null)
+            return;
+        
         if (currentHealth <= 0)
         {
             Destroy(UIbar.gameObject);
             UIbar.gameObject.SetActive(false);
             //Destroy(gameObject);
         }
-        
+
         UIbar.gameObject.SetActive(true);
         timeLeft = visableTime;
-        
+            
         float sliderPercent = (float)currentHealth / maxHealth;
         healthSlider.fillAmount = sliderPercent;
+        
     }
 
     private void OnEnable()

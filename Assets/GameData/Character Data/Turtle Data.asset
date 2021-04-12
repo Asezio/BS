@@ -12,8 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 27a271529ccaf4844991970d5d11f85f, type: 3}
   m_Name: Turtle Data
   m_EditorClassIdentifier: 
-  maxHealth: 45
-  currentHealth: 20
+  maxHealth: 15
+  currentHealth: 15
   baseDefence: 4
   CurrentDefence: 4
   killPoint: 15

@@ -11,17 +11,25 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/Script/Transition/TransitionDestination.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Script/UI/PlayerHealthUI.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.test-framework@1.1.20/UnityEditor.TestRunner/TestRun/TestRunCanceledException.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Script/Transition/TransitionPoint.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Script/Transition/SceneController.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Assets/Script/CharaStats/ScriptableObject/CharacterData_SO.cs" />
         <option value="$PROJECT_DIR$/Assets/Script/UI/PlayerHealthUI.cs" />
-        <option value="$PROJECT_DIR$/Assets/Script/Character/PlayerController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Script/Transition/TransitionDestination.cs" />
+        <option value="$PROJECT_DIR$/Assets/Script/Transition/TransitionPoint.cs" />
+        <option value="$PROJECT_DIR$/Assets/Script/Manager/MouseManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Script/Transition/SceneController.cs" />
         <option value="$PROJECT_DIR$/Assets/Script/UI/HealthBarUI.cs" />
+        <option value="$PROJECT_DIR$/Assets/Script/Character/PlayerController.cs" />
         <option value="$PROJECT_DIR$/Assets/Script/CharaStats/MonoBehavior/CharacterStats.cs" />
+        <option value="$PROJECT_DIR$/Assets/Script/Combat/AttackData_SO.cs" />
       </list>
     </option>
   </component>
@@ -67,6 +75,7 @@
       <workItem from="1616574619026" duration="4554000" />
       <workItem from="1616589240659" duration="1226000" />
       <workItem from="1616668883898" duration="16083000" />
+      <workItem from="1617793884114" duration="16777000" />
     </task>
     <servers />
   </component>
