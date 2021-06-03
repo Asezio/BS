@@ -11,11 +11,34 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Assets/Script/Transition/TransitionDestination.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Script/Inventory/UI/DragPanel.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Script/Inventory/Item/Scriptble/ItemData_SO.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Script/Inventory/UI/ItemToolTip.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Script/UI/HealthBarUI.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Script/UI/PlayerHealthUI.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.test-framework@1.1.20/UnityEditor.TestRunner/TestRun/TestRunCanceledException.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Script/Inventory/UI/ActionButton.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Script/Tools/IEndGameObserver.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Script/Tools/Singleton.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Script/Manager/MouseManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Script/Manager/GameManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Script/Character/PlayerController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Script/Character/EnemyController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Script/Inventory/Item/Mono/ItemPickUp.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Script/Inventory/Item/Mono/LootSpawner.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Script/Inventory/Logic/ScriptbleObject/InventoryData_SO.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Script/CharaStats/ScriptableObject/CharacterData_SO.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Script/Inventory/UI/ItemUI.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Script/Inventory/UI/DragItem.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Script/CharaStats/MonoBehavior/CharacterStats.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Script/Manager/SaveManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Script/Transition/TransitionPoint.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Script/Inventory/UI/ContainerUI.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Script/Transition/TransitionDestination.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.test-framework@1.1.20/UnityEditor.TestRunner/TestRun/TestRunCanceledException.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Script/Inventory/UI/SlotHolder.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Script/Transition/SceneController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Script/Inventory/Item/Scriptble/UsableItemData_SO.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Script/Inventory/Logic/Mono/InventoryManager.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -23,13 +46,31 @@
         <option value="$PROJECT_DIR$/Assets/Script/CharaStats/ScriptableObject/CharacterData_SO.cs" />
         <option value="$PROJECT_DIR$/Assets/Script/UI/PlayerHealthUI.cs" />
         <option value="$PROJECT_DIR$/Assets/Script/Transition/TransitionDestination.cs" />
-        <option value="$PROJECT_DIR$/Assets/Script/Transition/TransitionPoint.cs" />
-        <option value="$PROJECT_DIR$/Assets/Script/Manager/MouseManager.cs" />
-        <option value="$PROJECT_DIR$/Assets/Script/Transition/SceneController.cs" />
         <option value="$PROJECT_DIR$/Assets/Script/UI/HealthBarUI.cs" />
-        <option value="$PROJECT_DIR$/Assets/Script/Character/PlayerController.cs" />
-        <option value="$PROJECT_DIR$/Assets/Script/CharaStats/MonoBehavior/CharacterStats.cs" />
         <option value="$PROJECT_DIR$/Assets/Script/Combat/AttackData_SO.cs" />
+        <option value="$PROJECT_DIR$/Assets/Script/Manager/GameManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Script/Transition/TransitionPoint.cs" />
+        <option value="$PROJECT_DIR$/Assets/Script/Inventory/Logic/ScriptbleObject/Inventory_SO.cs" />
+        <option value="$PROJECT_DIR$/Assets/Script/Inventory/Item/Mono/ItemPickUp.cs" />
+        <option value="$PROJECT_DIR$/Assets/Script/Inventory/Item/Scriptble/UsableItemData_SO.cs" />
+        <option value="$PROJECT_DIR$/Assets/Script/Inventory/Item/Scriptble/ItemData_SO.cs" />
+        <option value="$PROJECT_DIR$/Assets/Script/CharaStats/MonoBehavior/CharacterStats.cs" />
+        <option value="$PROJECT_DIR$/Assets/Script/Inventory/UI/ActionButton.cs" />
+        <option value="$PROJECT_DIR$/Assets/Script/Tools/Singleton.cs" />
+        <option value="$PROJECT_DIR$/Assets/Script/Manager/MouseManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Script/Inventory/UI/ItemToolTip.cs" />
+        <option value="$PROJECT_DIR$/Assets/Script/Inventory/Item/Mono/LootSpawner.cs" />
+        <option value="$PROJECT_DIR$/Assets/Script/Transition/SceneController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Script/Inventory/UI/DragPanel.cs" />
+        <option value="$PROJECT_DIR$/Assets/Script/Manager/SaveManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Script/Inventory/UI/SlotHolder.cs" />
+        <option value="$PROJECT_DIR$/Assets/Script/Inventory/Logic/ScriptbleObject/InventoryData_SO.cs" />
+        <option value="$PROJECT_DIR$/Assets/Script/Inventory/UI/ItemUI.cs" />
+        <option value="$PROJECT_DIR$/Assets/Script/Inventory/Logic/Mono/InventoryManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Script/Inventory/UI/ContainerUI.cs" />
+        <option value="$PROJECT_DIR$/Assets/Script/Inventory/UI/DragItem.cs" />
+        <option value="$PROJECT_DIR$/Assets/Script/Character/EnemyController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Script/Character/PlayerController.cs" />
       </list>
     </option>
   </component>
@@ -49,22 +90,19 @@
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
       <option name="pid" />
-      <option name="selectedOptions">
-        <set />
-      </option>
       <method v="2" />
     </configuration>
     <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
       <option name="pid" />
-      <option name="selectedOptions">
-        <set />
-      </option>
       <method v="2" />
     </configuration>
   </component>
-  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SpellCheckerSettings" BundledDictionaries="0" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" Dictionaries="0" CorrectionsLimit="5" DefaultDictionary="application-level" UseSingleDictionary="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="9e8abea5-0e8d-4757-a4af-5cad147d6b87" name="Default Changelist" comment="" />
@@ -75,12 +113,17 @@
       <workItem from="1616574619026" duration="4554000" />
       <workItem from="1616589240659" duration="1226000" />
       <workItem from="1616668883898" duration="16083000" />
-      <workItem from="1617793884114" duration="16777000" />
+      <workItem from="1617793884114" duration="18009000" />
+      <workItem from="1619587222556" duration="8599000" />
+      <workItem from="1620724791189" duration="2293000" />
+      <workItem from="1621410972832" duration="39032000" />
+      <workItem from="1621913288656" duration="9403000" />
+      <workItem from="1622599355815" duration="3825000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="3" />
+    <option name="version" value="2" />
   </component>
   <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="EditMode" />
@@ -88,6 +131,10 @@
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="2650" y="281" key="RiderGenerateDialog" timestamp="1621521522325">
+      <screen x="1920" y="0" width="1920" height="1160" />
+    </state>
+    <state x="2650" y="281" key="RiderGenerateDialog/1920.0.1920.1160/0.0.1920.1160@1920.0.1920.1160" timestamp="1621521522325" />
     <state x="2543" y="255" width="672" height="678" key="search.everywhere.popup" timestamp="1616682886831">
       <screen x="1920" y="0" width="1920" height="1160" />
     </state>

@@ -24,12 +24,26 @@ public class PlayerController : MonoBehaviour
         stoppingDistance = agent.stoppingDistance;
     }
 
+    // private void OnEnable()
+    // {
+    //     MouseManager.Instance.OnMouseClicked += MoveToTarget;
+    //     MouseManager.Instance.OnEnemyClicked += EventAttack;
+    // }
+
     private void Start()
     {
+        GameManager.Instance.RigisterPlayer(characterStats);
         MouseManager.Instance.OnMouseClicked += MoveToTarget;
         MouseManager.Instance.OnEnemyClicked += EventAttack;
+    }
 
-        GameManager.Instance.RigisterPlayer(characterStats);
+    
+    private void OnDisable()
+    {
+        if (MouseManager.Instance==null)
+            Debug.Log("Can't find MouseManager");
+        MouseManager.Instance.OnMouseClicked -= MoveToTarget;
+        MouseManager.Instance.OnEnemyClicked -= EventAttack;
     }
 
     private void Update()
@@ -41,6 +55,11 @@ public class PlayerController : MonoBehaviour
 
         SwitchAnimation();
         lastAttackTime -= Time.deltaTime;
+        // if (Input.GetMouseButtonDown(0))
+        // {
+        //     anim.SetTrigger("click");
+        //     Debug.Log("click");
+        // }
     }
 
     private void SwitchAnimation()
@@ -76,13 +95,14 @@ public class PlayerController : MonoBehaviour
     {
         if (attackTarget != null && attackTarget.CompareTag("Attackable"))
         {
-            //¹¥»÷Ê¯Í·
+            //??????
             if(attackTarget.GetComponent<Rock>() && attackTarget.GetComponent<Rock>().rockStates == Rock.RockStates.HitNothing)
             {
                 attackTarget.GetComponent<Rock>().rockStates = Rock.RockStates.HitEnemy;
                 attackTarget.GetComponent<Rigidbody>().velocity = Vector3.one;
                 attackTarget.GetComponent<Rigidbody>().AddForce(transform.forward * 20, ForceMode.Impulse);
             }
+            
         }
         else
         {
@@ -115,4 +135,5 @@ public class PlayerController : MonoBehaviour
             lastAttackTime = characterStats.attackData.coolDown;
         }
     }
+
 }

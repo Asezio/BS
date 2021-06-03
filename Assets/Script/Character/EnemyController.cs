@@ -69,10 +69,10 @@ public class EnemyController : MonoBehaviour, IEndGameObserver
         GameManager.Instance.AddObserver(this);
     }
 
-    //void OnEnable()
-    //{
-    //    GameManager.Instance.AddObserver(this);
-    //}
+    // void OnEnable()
+    // {
+    //     GameManager.Instance.AddObserver(this);
+    // }
 
     void OnDisable()
     {
@@ -216,8 +216,8 @@ public class EnemyController : MonoBehaviour, IEndGameObserver
     {
         coll.enabled = false;
         agent.radius = 0;
-
-        Destroy(gameObject, 2f);
+        StartCoroutine(DeadDrop());
+        
     }
     void GetNewWayPoint()
     {
@@ -295,6 +295,13 @@ public class EnemyController : MonoBehaviour, IEndGameObserver
         Gizmos.DrawWireSphere(transform.position, sightRadius);
     }
 
+    IEnumerator DeadDrop()
+    {
+        yield return new WaitForSeconds(2f);
+        if (GetComponent<LootSpawner>() != null)
+            GetComponent<LootSpawner>().Spawnloot();
+        Destroy(gameObject);
+    }
     public void EndNotify()
     {
         //获胜动画

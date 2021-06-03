@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ContentModelStore">
-    <e p="C:\Users\GD Student\AppData\Local\JetBrains\Rider2020.2\extResources" t="IncludeRecursive" />
-    <e p="C:\Users\GD Student\AppData\Local\JetBrains\Rider2020.2\resharper-host\Local\Transient\Rider\v202\SolutionCaches\_BS.-1284211162.00" t="ExcludeRecursive" />
+    <e p="C:\Users\GD Student\AppData\Local\JetBrains\Rider2020.1\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\GD Student\AppData\Local\JetBrains\Rider2020.1\resharper-host\Local\Transient\ReSharperHost\v201\SolutionCaches\_BS.-1284211162.00" t="ExcludeRecursive" />
     <e p="D:\Course\T4\BS\BS" t="IncludeRecursive">
       <e p="Assembly-CSharp-Editor.csproj" t="IncludeRecursive" />
       <e p="Assembly-CSharp-firstpass.csproj" t="IncludeRecursive" />
@@ -113,6 +113,9 @@
                 </e>
               </e>
             </e>
+          </e>
+          <e p="Fantasy RPG Icon Set- Free" t="Include">
+            <e p="Notes.txt" t="Include" />
           </e>
           <e p="Loading Screen" t="Include">
             <e p="Content" t="Include">
@@ -238,9 +241,39 @@
           <e p="Combat" t="Include">
             <e p="AttackData_SO.cs" t="Include" />
           </e>
+          <e p="Inventory" t="Include">
+            <e p="Item" t="Include">
+              <e p="Mono" t="Include">
+                <e p="ItemPickUp.cs" t="Include" />
+                <e p="LootSpawner.cs" t="Include" />
+              </e>
+              <e p="Scriptble" t="Include">
+                <e p="ItemData_SO.cs" t="Include" />
+                <e p="UsableItemData_SO.cs" t="Include" />
+              </e>
+            </e>
+            <e p="Logic" t="Include">
+              <e p="Mono" t="Include">
+                <e p="InventoryManager.cs" t="Include" />
+              </e>
+              <e p="ScriptbleObject" t="Include">
+                <e p="InventoryData_SO.cs" t="Include" />
+              </e>
+            </e>
+            <e p="UI" t="Include">
+              <e p="ActionButton.cs" t="Include" />
+              <e p="ContainerUI.cs" t="Include" />
+              <e p="DragItem.cs" t="Include" />
+              <e p="DragPanel.cs" t="Include" />
+              <e p="ItemToolTip.cs" t="Include" />
+              <e p="ItemUI.cs" t="Include" />
+              <e p="SlotHolder.cs" t="Include" />
+            </e>
+          </e>
           <e p="Manager" t="Include">
             <e p="GameManager.cs" t="Include" />
             <e p="MouseManager.cs" t="Include" />
+            <e p="SaveManager.cs" t="Include" />
           </e>
           <e p="Tools" t="Include">
             <e p="Extension Method.cs" t="Include" />

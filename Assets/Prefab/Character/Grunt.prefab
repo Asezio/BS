@@ -197,6 +197,7 @@ GameObject:
   - component: {fileID: 5534579955073249493}
   - component: {fileID: 3698003929362160495}
   - component: {fileID: 8662257715566917732}
+  - component: {fileID: 8144168856406364743}
   m_Layer: 7
   m_Name: Grunt
   m_TagString: Enemy
@@ -269,6 +270,7 @@ MonoBehaviour:
   characterData: {fileID: 0}
   attackData: {fileID: 11400000, guid: 1cd22d1fb8e0d3a43a659242b64f14b3, type: 2}
   isCritical: 0
+  isMaxHealth: 0
 --- !u!195 &5534579955073249493
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -307,7 +309,7 @@ MonoBehaviour:
     type: 3}
   barPoint: {fileID: 5119271592447001837}
   alwaysVisable: 0
-  visableTime: 0
+  timeLeft: 0
 --- !u!114 &8662257715566917732
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -325,6 +327,19 @@ MonoBehaviour:
   lookAtTime: 3
   patrolRange: 7
   kickForce: 15
+--- !u!114 &8144168856406364743
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1436033317600686951}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 75b93c67a51a2c7449937378c960915b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  lootItems: []
 --- !u!1 &1436033317685595480
 GameObject:
   m_ObjectHideFlags: 0

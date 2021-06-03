@@ -9,7 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6902764211241100213}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: IndexFinger_01 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1721,7 +1721,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6902764211240930879}
-  m_LocalRotation: {x: -0, y: 0.3532858, z: -0, w: -0.9355155}
+  m_LocalRotation: {x: 0, y: 0.35328743, z: -0, w: -0.93551487}
   m_LocalPosition: {x: 45, y: 0.69, z: -36.72}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -1796,8 +1796,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 68130d8c67ed76c4ebabc3d2f4c3a972, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  templateData: {fileID: 0}
-  characterData: {fileID: 11400000, guid: 6f2deab1795f9fb41bf658a0edb7bb06, type: 2}
+  templateData: {fileID: 11400000, guid: 6f2deab1795f9fb41bf658a0edb7bb06, type: 2}
+  characterData: {fileID: 0}
   attackData: {fileID: 11400000, guid: 398a023ac4881fd449b41187d60d9593, type: 2}
   isCritical: 0
 --- !u!136 &7118532712793342993
@@ -2202,7 +2202,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6902764211240944471}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 16.6, y: 0, z: -0}
   m_LocalScale: {x: 0.01, y: 0.01, z: 0.01}
   m_Children: []
   m_Father: {fileID: 6902764211241161485}
@@ -2656,7 +2656,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 131468, guid: f61def225eac3e247985f6679965a655, type: 3}
       propertyPath: m_TagString
-      value: Player
+      value: Untagged
       objectReference: {fileID: 0}
     - target: {fileID: 465914, guid: f61def225eac3e247985f6679965a655, type: 3}
       propertyPath: m_RootOrder

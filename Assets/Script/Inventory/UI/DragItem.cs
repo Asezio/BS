@@ -23,7 +23,6 @@ public class DragItem : MonoBehaviour,IBeginDragHandler,IDragHandler,IEndDragHan
         InventoryManager.Instance.currentDrag = new InventoryManager.DragData();
         InventoryManager.Instance.currentDrag.originalHolder = GetComponentInParent<SlotHolder>();
         InventoryManager.Instance.currentDrag.originalParent = (RectTransform) transform.parent;
-        
         transform.SetParent(InventoryManager.Instance.dragCanvas.transform,true);
     }
 
@@ -38,7 +37,8 @@ public class DragItem : MonoBehaviour,IBeginDragHandler,IDragHandler,IEndDragHan
         //放下物品，交换数据
         if (EventSystem.current.IsPointerOverGameObject())
         {
-            if (InventoryManager.Instance.CheckInInventoryUI(eventData.position) || InventoryManager.Instance.CheckInActionUI(eventData.position))
+            if (InventoryManager.Instance.CheckInInventoryUI(eventData.position) 
+                || InventoryManager.Instance.CheckInActionUI(eventData.position))
             {
                 if (eventData.pointerEnter.gameObject.GetComponent<SlotHolder>())
                     targetSlotholder = eventData.pointerEnter.gameObject.GetComponent<SlotHolder>();
@@ -54,7 +54,6 @@ public class DragItem : MonoBehaviour,IBeginDragHandler,IDragHandler,IEndDragHan
                             SwapItem();
                         break;
                 }
-                
                 currentSlotholder.UpdateItem();
                 targetSlotholder.UpdateItem();
             }
@@ -69,9 +68,7 @@ public class DragItem : MonoBehaviour,IBeginDragHandler,IDragHandler,IEndDragHan
     {
         var targetItem = targetSlotholder.itemUI.Bag.items[targetSlotholder.itemUI.Index];
         var tempItem = currentSlotholder.itemUI.Bag.items[currentSlotholder.itemUI.Index];
-
         bool isSameItem = tempItem.ItemData == targetItem.ItemData;
-
         if (isSameItem && targetItem.ItemData.stackable)
         {
             targetItem.amount += tempItem.amount;

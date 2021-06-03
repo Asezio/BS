@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using System;
+using UnityEngine.EventSystems;
 
 //[System.Serializable]
 //public class EventVector3 : UnityEvent<Vector3> { }
@@ -17,12 +18,17 @@ public class MouseManager : Singleton<MouseManager>
     protected override void Awake()
     {
         base.Awake();
-        //DontDestroyOnLoad(this);
+        DontDestroyOnLoad(this);
     }
-
+    
     private void Update()
     {
+        if (IsUIActive()) return;
         MouseControl();
+        if (Instance == null)
+        {
+            Debug.Log("null");
+        }
     }
     private void FixedUpdate()
     {
@@ -50,6 +56,9 @@ public class MouseManager : Singleton<MouseManager>
                 case "Portal":
                     Cursor.SetCursor(doorway, new Vector2(16, 16), CursorMode.Auto);
                     break;
+                case "Item":
+                    Cursor.SetCursor(point, new Vector2(16, 16), CursorMode.Auto);
+                    break;
             }
         }
     }
@@ -74,6 +83,21 @@ public class MouseManager : Singleton<MouseManager>
             {
                 OnMouseClicked?.Invoke(hitInfo.point);
             }
+            if (hitInfo.collider.gameObject.CompareTag("Item"))
+            {
+                OnMouseClicked?.Invoke(hitInfo.point);
+            }
         }
     }
+    
+    
+    bool IsUIActive()
+    {
+        if (EventSystem.current != null && EventSystem.current.IsPointerOverGameObject())
+        {
+            return true;
+        }
+        else return false;
+    }
 }
+

@@ -5,7 +5,6 @@ using UnityEngine;
 public class ContainerUI : MonoBehaviour
 {
     public SlotHolder[] slotHolders;
-
     public void RefreshUI()
     {
         //Debug.Log(slotHolders.Length);

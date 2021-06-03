@@ -81,7 +81,6 @@ public class InventoryManager : Singleton<InventoryManager>
                 return true;
             }
         }
-
         return false;
     }
 

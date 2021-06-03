@@ -302,6 +302,8 @@ GameObject:
   - component: {fileID: 3030986073165734276}
   - component: {fileID: 3986393877772557096}
   - component: {fileID: 1586862158770454192}
+  - component: {fileID: 5877548027775784303}
+  - component: {fileID: 3988247198980213441}
   m_Layer: 7
   m_Name: Golem
   m_TagString: Enemy
@@ -361,6 +363,7 @@ MonoBehaviour:
   characterData: {fileID: 0}
   attackData: {fileID: 11400000, guid: 0a79c6a8d28de9d4da86a99cc8ac0d2e, type: 2}
   isCritical: 0
+  isMaxHealth: 0
 --- !u!195 &8823742447274507653
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -419,7 +422,7 @@ MonoBehaviour:
     type: 3}
   barPoint: {fileID: 1834306405819906692}
   alwaysVisable: 0
-  visableTime: 0
+  timeLeft: 0
 --- !u!136 &1586862158770454192
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -434,6 +437,32 @@ CapsuleCollider:
   m_Height: 4.153994
   m_Direction: 1
   m_Center: {x: 0, y: 2.0224187, z: 0}
+--- !u!114 &5877548027775784303
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5153951096098199300}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 75b93c67a51a2c7449937378c960915b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  lootItems: []
+--- !u!114 &3988247198980213441
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5153951096098199300}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 75b93c67a51a2c7449937378c960915b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  lootItems: []
 --- !u!1 &5153951096105706669
 GameObject:
   m_ObjectHideFlags: 0

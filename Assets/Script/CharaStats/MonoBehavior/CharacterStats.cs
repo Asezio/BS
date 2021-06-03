@@ -14,6 +14,8 @@ public class CharacterStats : MonoBehaviour
     [HideInInspector]
     public bool isCritical;
 
+    public bool isMaxHealth;
+
     private void Awake()
     {
         if (templateData != null)
@@ -87,4 +89,26 @@ public class CharacterStats : MonoBehaviour
 
     #endregion
 
+    public void AddHealth(int amount)
+    {
+        if (!IsMaxHealth())
+        {
+            if (CurrentHealth + amount <= MaxHealth)
+            {
+                CurrentHealth += amount;
+            }
+            else
+            {
+                CurrentHealth = MaxHealth;
+            }
+        }
+    }
+
+    public bool IsMaxHealth()
+    {
+        if (CurrentHealth == MaxHealth)
+            return true;
+        else return false;
+    }
+    
 }

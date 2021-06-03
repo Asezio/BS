@@ -14,7 +14,6 @@ public class TransitionPoint : MonoBehaviour
     [Header("Transition Info")] 
     public string sceneName;
     public TransitionType transitionType;
-
     public TransitionDestination.DestinationTag destinationTag;
 
     private bool canTrans;
@@ -35,6 +34,7 @@ public class TransitionPoint : MonoBehaviour
 
     private void OnTriggerExit(Collider other)
     {
-        
+        if (other.CompareTag("Player"))
+            canTrans = false;
     }
 }
